@@ -4,12 +4,8 @@ import AstroPWA from '@vite-pwa/astro'
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    logLevel: 'info',
-    define: {
-      __DATE__: `'${new Date().toISOString()}'`,
-    },
-  },
+	site: 'https://miguelalanis.github.io',
+	base: '/PodWAcher',
   integrations: [
     AstroPWA({
       mode: 'development',
