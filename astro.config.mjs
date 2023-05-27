@@ -4,8 +4,6 @@ import AstroPWA from '@vite-pwa/astro';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://miguelalanis.github.io',
-  base: '/PodWAcher',
   integrations: [
     AstroPWA({
       mode: 'development',
